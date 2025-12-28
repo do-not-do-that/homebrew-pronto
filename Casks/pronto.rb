@@ -1,11 +1,11 @@
 cask "pronto" do
   version "1.0.0"
-  sha256 :no_check  # GitHub Release 생성 후 실제 SHA256으로 교체
+  sha256 :713650873239d10da8e84048d4a0ed99da890d836a59ef2ea74b7a15ef4a0192
 
-  url "https://github.com/YOUR_USERNAME/pronto/releases/download/v#{version}/Pronto.app.zip"
+  url "https://github.com/do-not-do-that/pronto/releases/download/v#{version}/Pronto.app.zip"
   name "Pronto"
   desc "AWS SSO profile switcher for macOS menu bar"
-  homepage "https://github.com/YOUR_USERNAME/pronto"
+  homepage "https://github.com/do-not-do-that/pronto"
 
   livecheck do
     url :url
@@ -41,6 +41,6 @@ cask "pronto" do
     - SSO 로그인이 안 되면: AWS CLI 설치를 확인하세요
 
     더 자세한 정보:
-    https://github.com/YOUR_USERNAME/pronto#readme
+    https://github.com/do-not-do-that/pronto#readme
   EOS
 end
