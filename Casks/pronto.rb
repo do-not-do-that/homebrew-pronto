@@ -1,6 +1,6 @@
 cask "pronto" do
-  version "1.1.1"
-  sha256 "17e80b5fc32ef49b7b8800e79a0446789151850910c3880cae7c236ba15b48cf"
+  version "1.2.0"
+  sha256 "9442d4162d5807779d9d8aba302e1192c6128d2312deabd239fa1e1d75a0c139"
 
   url "https://github.com/do-not-do-that/pronto/releases/download/v#{version}/Pronto-v#{version}.app.zip"
   name "Pronto"
