@@ -25,16 +25,17 @@ cask "pronto" do
   caveats <<~EOS
     Pronto가 설치되었습니다!
 
+    실행 전 Gatekeeper 경고를 제거하세요:
+       $ xattr -cr /Applications/Pronto.app
+       $ open -a Pronto
+
     사용 방법:
     1. AWS CLI v2가 설치되어 있는지 확인하세요
        $ aws --version
 
     2. ~/.aws/config에 SSO 설정이 있는지 확인하세요
 
-    3. Pronto를 실행하세요
-       $ open -a Pronto
-
-    4. 메뉴바에서 ☁️ 아이콘을 클릭하고 Profile을 선택하세요
+    3. 메뉴바에서 ☁️ 아이콘을 클릭하고 Profile을 선택하세요
 
     문제 해결:
     - Profile이 보이지 않으면: ~/.aws/config 파일을 확인하세요
